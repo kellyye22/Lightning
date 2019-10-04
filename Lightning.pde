@@ -8,7 +8,6 @@ void setup()
 {
   size(551,310);
   img = loadImage("thor-marvel-comics-wallpaper-thumb.jpg");
-  strokeWeight(4);
   background(img);
 }
 void draw()
@@ -30,6 +29,7 @@ void mousePressed()
    startY = 37;
    endX = 169;
    endY = 37;
+   strokeWeight((int)(Math.random()*6));
+
 
 }
-
