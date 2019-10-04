@@ -31,5 +31,4 @@ void mousePressed()
    endY = 37;
    strokeWeight((int)(Math.random()*6));
 
-
 }
