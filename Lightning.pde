@@ -8,7 +8,7 @@ void setup()
 {
   size(551,310);
   img = loadImage("thor-marvel-comics-wallpaper-thumb.jpg");
-  strokeWeight(4);
+  strokeWeight(2.5);
   background(img);
 }
 void draw()
