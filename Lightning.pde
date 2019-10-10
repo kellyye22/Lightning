@@ -7,9 +7,9 @@ PImage img;
 void setup()
 {
   size(551,310);
-  //img = loadImage("thor-marvel-comics-wallpaper-thumb.jpg");
+  img = loadImage("thor-marvel-comics-wallpaper-thumb.jpg");
   strokeWeight(2.5);
-  //background(img);
+  background(img);
 }
 void draw()
 {
