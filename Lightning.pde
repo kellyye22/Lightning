@@ -2,12 +2,12 @@ int startX = 169;
 int startY = 37;
 int endX = 169;
 int endY = 37;
-PImage img;
+PImage img = loadImage("thor-marvel-comics-wallpaper-thumb.jpg");
 
 void setup()
 {
   size(551,310);
-  img = loadImage("thor-marvel-comics-wallpaper-thumb.jpg");
+  //img = loadImage("thor-marvel-comics-wallpaper-thumb.jpg");
   strokeWeight(2.5);
   background(img);
 }
